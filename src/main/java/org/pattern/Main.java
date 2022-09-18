@@ -1,11 +1,11 @@
 package org.pattern;
 
-import org.pattern.behavioral.chainOfReponsibility.ChainOfResponsibilityTest;
 import org.pattern.common.Testable;
+import org.pattern.structural.flyweight.FlyweightTest;
 
 public class Main {
     public static void main(String[] args) {
-        Testable test = new ChainOfResponsibilityTest();
+        Testable test = new FlyweightTest();
         test.run();
     }
 }
