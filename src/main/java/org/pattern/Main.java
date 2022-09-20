@@ -1,11 +1,11 @@
 package org.pattern;
 
+import org.pattern.behavioral.command.CommandTest;
 import org.pattern.common.Testable;
-import org.pattern.structural.proxy.ProxyTest;
 
 public class Main {
     public static void main(String[] args) {
-        Testable test = new ProxyTest();
+        Testable test = new CommandTest("test");
         test.run();
     }
 }
